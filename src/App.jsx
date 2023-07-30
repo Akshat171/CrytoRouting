@@ -11,6 +11,7 @@ import { Route, BrowserRouter, Routes } from "react-router-dom";
 import DonationPage from "./pages/DonationPage";
 import SignupPage from "./pages/SignUpPage";
 import Homepage from "./pages/Homepage_1";
+import LoginPage from "./pages/LoginPage";
 // Set the base URL for your backend API
 const API_BASE_URL = "http://localhost:5000/api";
 
@@ -37,6 +38,7 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="sign-up" element={<SignupPage />} />
           <Route path="donation" element={<DonationPage />} />
+          <Route path="login" element={<LoginPage />} />
         </Routes>
       </BrowserRouter>
     </>

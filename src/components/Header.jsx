@@ -20,7 +20,7 @@ export default function Header() {
           </Link>
         </div>
         <div className="flex items-center gap-8">
-          <Link to="/">Log In</Link>
+          <Link to="/login">Log In</Link>
           <Link to="/donation">
             <Button innerText="Donate Now" />
           </Link>
